@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my form</title>
+	<link rel="favicon" type="jpg" href="nature.jpg">
+	<style>
+		body{
+			background-color:lightblue;
+			text-align:center;
+		}
+		h1{text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<h1>my form</h1>
+	<form>
+		<label>First name</label>
+  		<input type="text" id="fname" name="fname"  /> <br>
+  		<br>
+
+  		<label>Last name</label>
+  		<input type="text" id="lname" name="lname"><br>
+        <p>Gender</p>
+  		<label for="fname">female</label>
+  		<input type="radio" id="gender" name="name">
+  		<label for="mname">male</label>
+  		<input type="radio" id="gender" name="name">
+  		<label for="none">none</label>
+  		<input type="radio" id="gender" name="name"><br>
+  		<br>
+
+  		<label>Rollno</label>
+  		<input type="text" value="" name=""><br>
+  		<br>
+
+  		<label>marks:</label>
+  		<input type="text" id="" name=""><br>
+  		<br>
+
+  		<label>date of birth:</label>
+  		<input type="month" id="" name=""><br>
+  		<br>
+  		<label for="course"> select your graduation courses:</label>
+  		<select>
+  			<option value="cse">cse</option>
+  			<option value="ece">ece</option>
+  			<option value="eee">eee</option>
+  			<option value="it">it</option>
+  			<option value="mech">mech</option>
+  		</select><br>
+  		<br>
+  		<label for="resume">resume</label> 
+  		<input type="file" id="resume" name="resume">
+  		<br>
+  		<br>
+  		<label for="photo">passphoto</label> 
+  		<input type="file" id="photo" name="photo" accept="image/*">
+		<br>
+  		<br>
+  		<input type="checkbox" id="check" name="check">
+  		<label for="check">i hereby agree that above submitted data is completely true.</label><br>
+  		<br>
+  		<label for="submit">submit the application on clicking <b>SUBMIT</b></label><br>
+  		<input type="submit" id="submit" name="submit"><br>
+  	</form>
